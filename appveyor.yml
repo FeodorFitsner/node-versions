@@ -6,5 +6,6 @@ build_script:
 - node --version
 - ps: Install-Product node 0.12
 - node --version
+- dir c:\avvm\node /b
 
 test: off
