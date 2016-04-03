@@ -1,0 +1,10 @@
+build_script:
+- node --version
+- ps: Install-Product node stable
+- node --version
+- ps: Install-Product node lts
+- node --version
+- ps: Install-Product node 0.12
+- node --version
+
+test: off
